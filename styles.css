@@ -1,0 +1,141 @@
+<style>
+  /* Basic CSS Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+    /* Header styles */
+  header {
+    background-color: #2d2d66;
+    color: #ddd;  
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .banner {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+  }
+
+    /* Logo styling */
+  .logo {
+    background-color: rgba(45, 45, 102, 0.90); /* Background color of the logo */
+    border: inset #8366ad; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    color: #fff; /* Change the color as needed */
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 15px;
+  }
+
+
+  /* Body styles */
+  body {
+    background-image: url('logo.png');
+    background-repeat: repeat;
+    background-size: 100px 100px;
+    background-position: center;
+  }
+
+  /* Content styles */
+  .content {
+    background-image: url('banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 23px;
+    padding: 90px;
+    text-align: right;
+    color: #ddd; /* Set text color for better readability */
+    font-family: Arial, Helvetica, sans-serif; /* Set your preferred font stack */
+    background-color: #2d2d66;
+}
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .banner {
+      font-size: 20px;
+    }
+  }
+
+/* Style for the home button */
+.home-button {
+  display: inline-block;
+  background-color: #2d2d66;
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  border: solid;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: inset #8366ad;
+}
+
+.home-button:hover {
+  background-color: #2d2d66; /* Darker shade of the primary color on hover */
+}
+
+.center-container {
+  text-align: right;
+}
+
+.menu {
+  background-color: #2d2d66;
+}
+
+.menu ul {
+  list-style-type: square;
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 5px 5px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.menu ul li a:hover {
+  background-color: #8366ad;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  gap: 20px; /* Gap between columns */
+}
+
+.column {
+  padding: 10px;
+  background-color: #8366ad;
+  border: 1px solid #ccc;
+}
+
+.column img {
+max-width: 100%; /* Ensure images don't exceed column width */
+height: auto; /* Maintain aspect ratio */
+display: block; /* Remove any extra space below images */
+margin-bottom: 5px; /* Optional: Add space below images */
+}
+
+</style>
